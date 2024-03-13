@@ -1,0 +1,15 @@
+server:
+ port:8070
+
+eureka:
+  instance:
+    hostname:localhost
+
+  cliet:
+    fetchRegistry:false
+     registerWithEureka:false
+
+  serviceUrl:
+    defalutZone:http://${eureka.instance.hostname}:${seever.port}/eureka/
+
+
