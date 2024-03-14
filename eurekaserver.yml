@@ -10,6 +10,6 @@ eureka:
      registerWithEureka:false
 
   serviceUrl:
-    defalutZone:http://${eureka.instance.hostname}:${seever.port}/eureka/
+    defalutZone:http://${eureka.instance.hostname}:${server.port}/eureka/
 
 
